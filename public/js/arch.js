@@ -30,6 +30,7 @@ function createMList(data) {
       var $a = $('<a>', {"class":cl, href:'#sub-list'})
       $a.append($li);
       $a.click(function(event) {
+        event.preventDefault();
         $('#caption').hide('fast');
         $('#sub-list').html('<ul></ul>');
         prod.content.forEach((item, i) => {
@@ -52,6 +53,7 @@ function createSubList(prod) {
     $a.append($li);
 
     $a.click(function(event) {
+      event.preventDefault();
       $cap = $('#caption');
       $cap.hide('fast');
 

@@ -13,7 +13,7 @@ $(document).ready(function() {
 function aShowHide() {
   $('a').click(function(event) { //Comportamiento cuando se quiere mostrar otra sección de la página
     var hr = $(this).attr('href');
-    if(hr.startsWith('#')){
+    if(hr.startsWith('#') && hr != '#home' || hr != '#prod'){
       $('.sub-a').hide('fast')
       $(hr).show('slow');
     }

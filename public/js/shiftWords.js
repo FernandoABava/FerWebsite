@@ -14,14 +14,14 @@ $( document ).ready(function() {
     $('.rw').text(randomWords(arr));
   }, Math.random() * 4000 + 1500);
 
-  $('a[href="#prod"]').click(function(event) { //Comportamiento cuando vamos a la sección de producción
-    $('#home').hide('slow');
-  });
-
-  $('a[href="#home"]').click(function(event) { //Comportamiento cuando vamos al inicio
-    $('#prod').hide('slow');
-    $('#prod').find('.h').hide('slow');
-  });
+  // $('a[href="#prod"]').click(function(event) { //Comportamiento cuando vamos a la sección de producción
+  //   $('#home').hide('slow');
+  // });
+  //
+  // $('a[href="#home"]').click(function(event) { //Comportamiento cuando vamos al inicio
+  //   $('#prod').hide('slow');
+  //   $('#prod').find('.h').hide('slow');
+  // });
 
 });
 
