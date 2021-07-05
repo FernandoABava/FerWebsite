@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   viewBox="0 0 67.733331 67.733335"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="instagram.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="108.83246"
+     inkscape:cy="114.50129"
+     inkscape:document-units="px"
+     inkscape:current-layer="g900"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0"
+     units="px"
+     showguides="false">
+    <sodipodi:guide
+       position="0,67.46875"
+       orientation="0,255"
+       id="guide902" />
+    <sodipodi:guide
+       position="67.46875,67.46875"
+       orientation="255,0"
+       id="guide904" />
+    <sodipodi:guide
+       position="67.46875,0"
+       orientation="0,-255"
+       id="guide906" />
+    <sodipodi:guide
+       position="0,0"
+       orientation="-255,0"
+       id="guide908" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g900"
+       transform="matrix(0.71465745,0,0,0.71465745,-45.15125,-53.924771)">
+      <path
+         id="rect856"
+         style="fill:none;fill-opacity:0.591241;fill-rule:evenodd;stroke:#000000;stroke-width:3.70223989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 91.106924,81.765082 h 38.921236 c 12.1458,0 21.92384,9.778033 21.92384,21.923838 v 38.31032 c 0,12.14581 -9.77804,21.92384 -21.92384,21.92384 H 91.106924 c -12.145808,0 -21.923842,-9.77803 -21.923842,-21.92384 v -38.31032 c 0,-12.145805 9.778034,-21.923838 21.923842,-21.923838 z" />
+      <path
+         id="path876"
+         style="fill:none;fill-opacity:0.591241;fill-rule:evenodd;stroke:#000000;stroke-width:3.70223989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 129.39851,122.67671 a 19.149857,19.149857 0 0 1 -19.14985,19.14986 19.149857,19.149857 0 0 1 -19.149859,-19.14986 19.149857,19.149857 0 0 1 19.149859,-19.14985 19.149857,19.149857 0 0 1 19.14985,19.14985 z" />
+      <path
+         id="path876-0"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.40111;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 139.98464,98.52124 a 5.6594605,5.6594605 0 0 1 -5.65946,5.65946 5.6594605,5.6594605 0 0 1 -5.65946,-5.65946 5.6594605,5.6594605 0 0 1 5.65946,-5.65946 5.6594605,5.6594605 0 0 1 5.65946,5.65946 z" />
+    </g>
+  </g>
+</svg>

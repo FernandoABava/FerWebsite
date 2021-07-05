@@ -1,0 +1,44 @@
+.card{
+  display: inline-block;
+  width: 30%;
+  margin-left: 0;
+  margin-right: 3.3333%;
+  margin-top: 3rem;
+  color: white;
+  background-color: white;
+
+  transition: all .5s ease;
+}
+.card:hover {
+  background-color: #ffa822;
+
+}
+
+.card-heading {
+  cursor: pointer;
+}
+
+.c-img {
+  /* width: 100%; */
+  /* filter: brightness(50%); */
+
+}
+
+.c-title {
+  height: 0px;
+  position:  relative;
+  top: -100px;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 0px;
+}
+
+.c-info{
+  width: inherit;
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  font-weight: 400;
+  padding-bottom: 12px;
+  color: white;
+}

@@ -1,0 +1,19 @@
+.social-box {
+  position: fixed;
+  top: 24%;
+  margin-left: 8px;
+}
+
+.a-svg {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 8px;
+}
+
+.b-svg {
+  pointer-events: none;
+  cursor: pointer;
+  width:32px;
+  height: 32px;
+}

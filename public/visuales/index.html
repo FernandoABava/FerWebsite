@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F/Visuales</title>
+    <style> body {padding: 0; margin: 0;} </style>
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/my.css">
+    <link rel="stylesheet" href="visuales.css">
+    <link rel="stylesheet" href="card/card.css">
+    <link rel="stylesheet" href="isPlayingBar/ipb.css">
+    <link rel="stylesheet" href="../social/social.css">
+
+    <!-- JS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../p5/p5.min.js"></script>
+    <script src="sketch.js"></script>
+    <script src="card/card.js"></script>
+    <script src="isPlayingBar/ipb.js"></script>
+    <script src="../js/hideNseek.js"></script>
+    <script src="app.js"></script>
+
+    <!-- SHADERS as js
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- <script src="./shaders/prefix.js"></script>
+    <script src="./shaders/Bang.js"></script> -->
+
+  </head>
+  <body id="body">
+    <div id="canvas-holder">
+    </div>
+    <div id="oa-sombra"> </div>
+
+    <div id="social"></div>
+
+    <div class="container">
+      <div class="twelve columns white" style="margin-top: 5%">
+        <h1 class="s-h1">Visuales</h1>
+      </div>
+      <div class="row">
+        <div class="nine columns white l-contrast" style="margin-top: 20px">
+          <p class="m-body">
+            Este espacio fue creado para poder mostrar y compartir algunas de las
+            animaciones que he creado con el lenguaje de shaders GLSL. Lo aprendí
+            con la intención de poder utilizarlo para generar visuales
+            en tiempo real, por lo que la mayoría de lo que se puede ver acá fue
+            creado a partir de un mismo archivo que fue evolucionando y
+            complejizándose. <br>
+            Cada una de las visuales que aquí se expone es parte de un largo devenir,
+            durante el cual programo, no pensando en un resultado final, sino jugando
+            con los cambios que se generan en cada momento. De esta forma, cada
+            animación individual no es más que una foto de un momento especcífico
+            del proceso. De la misma forma, hay muchas visuales que han quedado
+            plasmadas en forma de imágenes o videos. <br>
+            Abajo a la derecha encontrarán un botón para poder ver únicamente la
+            visual.
+          </p>
+          <a class="m-body white" href="#en-detalle">Ver más</a>
+          <div class="ver-mas h" id="en-detalle">
+            <p>
+              El archivo que utilizo para programar las visuales contiene funciones
+              para gener patrones (Random, Noise, FBM, Voronoi), algunas para generar
+              formas o polígonos, y también funciones para combinar dos fuentes,
+              basadas en la función "blendMode" de processing. Todas estás funciones
+              las trabajo afuera de la función principal, para que el trabajo se
+              realice una vez por cada canal de color. Esto me permite jugar con
+              la fase de cada color y generar combinaciones extrañas. <br>
+              Además, he construído otro archivo para que modifique imágenes (lo
+              que implica cambiar el output de algunas funciones de float a vec3),
+              como así también armé un programa de processing para controlar la
+              fase de cada color y el tiempo, desde un arduino. <br>
+              Pueden acceder al archivo principal desde acá: <br>
+              <a href="./shaders/shader.frag" style="color: white;">shader.frag</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="card-container"></div>
+    </div>
+
+    <div id="is-playing"></div>
+
+    <script type="text/javascript">
+      $('#social').load('../social/social.html');
+    </script>
+  </body>
+</html>

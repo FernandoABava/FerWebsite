@@ -1,0 +1,1 @@
+<strong>Shaders.glsl</strong> es un título un poco escueto para una serie de visuales realizadas en GLSL. Todas fueron realizadas a partir de un mismo archivo escrito para improvisar en vivo. Cada visual es una pequeña fotografía de un devenir más amplio. 

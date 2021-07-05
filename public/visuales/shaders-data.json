@@ -1,0 +1,79 @@
+{
+  "shaders" : [
+    {
+      "title" : "Big Bang",
+      "name" : "Bang.frag",
+      "img" : "s-img/bang.png"
+    },
+    {
+      "title" : "Stars",
+      "name" : "Stars.frag",
+      "img" : "s-img/stars.png"
+    },
+    {
+      "title" : "Amanecer",
+      "name" : "StarryNight.frag",
+      "img" : "s-img/starrynight.png"
+    },
+    {
+      "title" : "Nube-Sol",
+      "name" : "NubeSol.frag",
+      "img" : "s-img/nubesol.png"
+    },
+    {
+      "title" : "Solo la Luna",
+      "name" : "SoloLaLuna.frag",
+      "img" : "s-img/sololaluna.png"
+    },
+    {
+      "title" : "Deep Bass",
+      "name" : "ManuDark.frag",
+      "img" : "s-img/manudark.png"
+    },
+    {
+      "title" : "Pixelmeba",
+      "name" : "Pixelmeba.frag",
+      "img" : "s-img/pixelmeba.png"
+    },
+    {
+      "title" : "Ero",
+      "name" : "Ero.frag",
+      "img" : "s-img/ero.png"
+    },
+    {
+      "title" : "Ruido",
+      "name" : "Ruido.frag",
+      "img" : "s-img/ruido.png"
+    },
+    {
+      "title" : "Noisy Sky",
+      "name" : "NoisySky.frag",
+      "img" : "s-img/noisysky.png"
+    },
+    {
+      "title" : "Rings",
+      "name" : "Rings.frag",
+      "img" : "s-img/rings.png"
+    },
+    {
+      "title" : "Moon Lips",
+      "name" : "MoonLips.frag",
+      "img" : "s-img/moonlips.png"
+    },
+    {
+      "title" : "Crying Moon",
+      "name" : "CryingMoon.frag",
+      "img" : "s-img/cryingmoon.png"
+    },
+    {
+      "title" : "Luna Imaginaria",
+      "name" : "LunaImaginaria.frag",
+      "img" : "s-img/lunaimaginaria.png"
+    },
+    {
+      "title" : "Secrets",
+      "name" : "Secrets.frag",
+      "img" : "s-img/secrets.png"
+    }
+  ]
+}

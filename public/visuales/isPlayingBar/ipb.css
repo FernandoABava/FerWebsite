@@ -1,0 +1,26 @@
+.ipb-container {
+  position: fixed;
+  top: auto;
+  bottom: 0px;
+  left: auto;
+  right: 0px;
+  padding: 5px 10px 5px 10px;
+  background-color: white;
+}
+
+.ipb-title {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.ipb-toggle {
+  border: none;
+  margin: 0px;
+  padding: 0 12px;
+}
+
+.ipb-eye {
+  vertical-align: bottom;
+  width: auto;
+  height: 100%;
+}

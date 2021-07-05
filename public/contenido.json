@@ -1,0 +1,100 @@
+{
+  "prods" : [
+    {
+      "title" : "Lírica [virtual]",
+      "is" : true,
+      "id" : "txt",
+      "content" : [
+        {
+          "title" : "Poema Mutalbe.txt",
+          "is" : true,
+          "img" : "../assets/p-mutable/i-mutable.png",
+          "alt" : "dibujo de un amanecer en la montaña",
+          "caption" : "../assets/p-mutable/c-mutable.txt",
+          "link" : "./poema-mutable/"
+        },
+        {
+          "title" : "Somos.txt",
+          "is" : true,
+          "img" : "../assets/somos/i-somos.png",
+          "alt" : "El título del poema escrito en dos pequeños libros y en una pantalla.",
+          "caption" : "../assets/somos/c-somos.txt",
+          "link" : "./somos/"
+        },
+        {
+          "title" : "Sueños con Ventanas.txt",
+          "is" : true,
+          "img" : "../assets/ventanas/cielo.png",
+          "alt" : "El cielo desde la ventana de un avión",
+          "caption" : "../assets/ventanas/c-ventanas.txt",
+          "link" : "https://ventanas-aa019.web.app/"
+        }
+      ]
+    },
+    {
+      "title" : "Juegos",
+      "is" : true,
+      "id" : "games",
+      "content" : [
+        {
+          "title" : "Universo418.html",
+          "is" : true,
+          "img" : "../assets/418/Auriculares.png",
+          "alt" : "Un par de auriculares dibujados a mano",
+          "caption" : "../assets/418/c-418.txt",
+          "link" : "https://universo418.web.app/"
+        },
+        {
+          "title" : "FerBareFeet.itch",
+          "is" : true,
+          "img" : "../assets/itch/char.png",
+          "alt" : "Una simpática calavera y su horno",
+          "caption" : "../assets/itch/c-itch.txt",
+          "link" : "https://ferbarefeet.itch.io/"
+        }
+      ]
+    },
+    {
+      "title" : "Visuales",
+      "is" : true,
+      "id" : "glsl",
+      "content" : [
+        {
+          "title" : "Shaders.glsl",
+          "is" : true,
+          "img" : "../assets/glsl/img-glsl.png",
+          "alt" : "La foto de una montaña, intervenida digitalmente",
+          "caption" : "../assets/glsl/c-glsl.txt",
+          "link" : "./visuales"
+        },
+        {
+          "title" : "Consolita.ino",
+          "is" : false
+        }
+      ]
+    },
+    {
+      "title" : "Lírica Académica",
+      "is" : false
+    },
+    {
+      "title" : "Instalaciones",
+      "is" : false,
+      "id" : "instalacion",
+      "content" : [
+        {
+          "title" : "",
+          "is" : "",
+          "img" : "",
+          "alt" : "",
+          "caption" : "",
+          "link" "./"
+        }
+      ]
+    },
+    {
+      "title" : "Desarrollo",
+      "is" : false
+    }
+  ]
+}

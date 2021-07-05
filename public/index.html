@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernando A. Bava</title>
+    <style> body {padding: 0; margin: 0;} </style>
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/my.css">
+    <link rel="stylesheet" href="social/social.css">
+
+    <!-- JS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="./p5/p5.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/arch.js"></script>
+    <script src="js/hideNseek.js"></script>
+    <script src="js/shiftWords.js"></script>
+    <script src="js/lines.js"></script>
+
+  </head>
+  <body id="body">
+    <div id="s-holder"></div>
+
+    <div id="social"></div>
+
+    <div class="container">
+      <div class="row" style="margin-top: 15%">
+        <div id="home" class="seven columns">
+          <h1 class="b-h1">Hola</h1>
+          <p class="m-body">Soy Fernando A. Bava. Nací en Esquel, estudio en La Plata (Argentina).
+          Estoy en 4to año de la carrera Diseño Multimedial de la UNLP.
+          <span class="rw" data-w="Programo,Diseño,Juego,Experimento">Experimento</span>
+          en processing, p5js, Unity 3D y GLSL. <br>Tengo experiencia en realidad aumentada,
+          desarrollo web y diseño de instalaciones interactivas. Mis intereses
+          oscilan entre lo lúdico y lo artístico. <br> Mientras sigo aprendiendo y
+          haciendo, voy a ir subiendo producciones <a href="#prod">acá&#x2935;</a></p>
+        </div>
+      </div>
+
+      <!-- PRODUCCIONES -->
+
+      <div id="prod" class="row h">
+        <!-- volver -->
+        <a href="#home" style="text-decoration:none"><h2>↑</h2></a>
+        <!-- PRIMERA LISTA -->
+        <div class="three columns">
+          <ul id="prod-holder">
+            <!-- <a class="li-sutil" href="#txt"><li>Lírica [virtual]</li></a> -->
+          </ul>
+        </div>
+
+        <!-- SEGUNDA LISTA -->
+        <div id="sub-list" class="three columns h sub-a">
+          <ul>
+            <!-- <a target="_blank" rel="noopener noreferrer" href="https://ventanas-aa019.web.app/">
+              <li>Sueños con Ventanas.txt</li>
+            </a> -->
+          </ul>
+        </div>
+        <!-- DESCRIPCIONES -->
+        <div id="caption" class="five columns h about">
+          <img src="" alt="">
+          <p class="info"></p>
+          <a target="_blank" rel="noopener noreferrer" href="">
+            <button type="button" name="button">Conocer</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $('#social').load('./social/social.html', ()=>{
+        $('#web-button').hide();
+      });
+    </script>
+  </body>
+</html>

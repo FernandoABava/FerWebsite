@@ -1,0 +1,2 @@
+<strong>Somos</strong> es un tímido intento de explorar el medio digital a través de la palabra escrita. Desde el uso de elementos básicos me propuse forzar el ritmo de lectura y generar un ambiente específico para cada verso, como así también para la totalidad.
+Luego de ser prototipado en Processing, armé dos versiones impresas, tratando de preservar su nexo con lo virtual. Una más económica pensada para circular fácilmente y que reemplaza los colores por texturas, y otra a color, tratando de ser lo más fiel posible a la idea original.

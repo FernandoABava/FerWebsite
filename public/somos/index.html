@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F/Somos</title>
+    <style> body {padding: 0; margin: 0;} </style>
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/my.css">
+    <link rel="stylesheet" href="../social/social.css">
+
+    <!-- JS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../p5/p5.min.js"></script>
+    <script src="./texto.js"></script>
+    <script src="./fondo.js"></script>
+    <script src="./sketch.js"></script>
+
+  </head>
+  <body id="body">
+    <div class="center" id="how-to">
+      <div id="social"></div>
+      <div class="sub-center desk-only">
+        <h3>Instrucciones</h3>
+        <ul>
+          <li><strong>'D' para avanzar</strong></li>
+          <li>'A' para retroceder</li>
+        </ul>
+        <object type="image/svg+xml" data="./tecla.svg" style="width:20%" aria-hidden="true"></object>
+      </div>
+
+      <div class="sub-center mob-only">
+        <h3>Instrucciones</h3>
+        <ul>
+          <li><strong>Deslizá a la izquierda para avanzar</strong></li>
+          <li>Deslizá a la izquierda para retroceder</li>
+        </ul>
+      </div>
+      <button type="button" name="button">Comenzar</button>
+    </div>
+
+    <div class="row h" id="poema">
+      <div class="offset-by-two six columns" style="margin-top: 15%">
+        <span id="verso">Hola</span>
+      </div>
+      <div id="titulo" class="four columns" style="margin-top: 40%">
+        <h1>Somos</h1>
+        <h5>por Fernando A. Bava</h5>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $('.h').hide();
+      $('#social').load('../social/social.html');
+    </script>
+  </body>
+</html>
