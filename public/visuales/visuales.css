@@ -1,6 +1,10 @@
 .l-contrast {
   background-color: #0000;
 }
+
+.yellow {
+  color: #ffa822;
+}
 /* .l-contrast:hover {
   padding-right: 7px;
   background-color: #0008;
